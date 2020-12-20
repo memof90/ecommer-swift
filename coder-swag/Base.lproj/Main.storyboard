@@ -22,24 +22,28 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="VWO-wa-W8U">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="VWO-wa-W8U">
                                 <rect key="frame" x="0.0" y="69.5" width="414" height="704.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="217" id="zvl-rb-VFP" customClass="CategoryCell" customModule="coder_swag" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="217"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="203" id="zvl-rb-VFP" customClass="CategoryCell" customModule="coder_swag" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="203"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zvl-rb-VFP" id="C2B-3d-lup">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="217"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="203"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="Vge-et-XU5">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="217"/>
+                                                    <rect key="frame" x="0.0" y="3" width="414" height="197"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="414" id="1Q3-Et-ewx"/>
+                                                        <constraint firstAttribute="height" constant="155" id="SPl-r6-q49"/>
+                                                    </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRB-f1-nUw">
-                                                    <rect key="frame" x="129" y="94.5" width="156" height="28"/>
+                                                    <rect key="frame" x="129" y="87.5" width="156" height="28"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="156" id="n8w-SQ-wld"/>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="156" id="n8w-SQ-wld"/>
                                                         <constraint firstAttribute="height" constant="28" id="yPw-58-vdI"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
@@ -48,12 +52,12 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="Vge-et-XU5" secondAttribute="bottom" constant="3" id="4on-Wr-hcO"/>
                                                 <constraint firstItem="Vge-et-XU5" firstAttribute="leading" secondItem="C2B-3d-lup" secondAttribute="leading" id="FNa-8P-njB"/>
                                                 <constraint firstAttribute="trailing" secondItem="Vge-et-XU5" secondAttribute="trailing" id="UJl-Y0-0fd"/>
+                                                <constraint firstItem="Vge-et-XU5" firstAttribute="top" secondItem="C2B-3d-lup" secondAttribute="top" constant="3" id="aVg-Ef-nUT"/>
                                                 <constraint firstItem="mRB-f1-nUw" firstAttribute="centerX" secondItem="C2B-3d-lup" secondAttribute="centerX" id="elW-3R-G18"/>
                                                 <constraint firstItem="mRB-f1-nUw" firstAttribute="centerY" secondItem="C2B-3d-lup" secondAttribute="centerY" id="fUT-co-Zej"/>
-                                                <constraint firstItem="Vge-et-XU5" firstAttribute="top" secondItem="C2B-3d-lup" secondAttribute="top" id="mYX-vB-AHS"/>
-                                                <constraint firstAttribute="bottom" secondItem="Vge-et-XU5" secondAttribute="bottom" id="xpI-LG-Xsn"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
