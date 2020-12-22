@@ -36,10 +36,10 @@ class DataService{
     //    MARK: SHIRTS
     private let shirts = [
         Product(title: "Devslopes Logo Shirt Black", price: "$18", imageName: "shirt01.png"),
-        Product(title: "Devslopes Logo Shirt Gray", price: "19", imageName: "shirt02.png"),
-        Product(title: "Devslopes Logo Shirt Red", price: "18", imageName: "shirt03.png"),
-        Product(title: "Hustle Delegate Grey", price: "18", imageName: "shirt04.png"),
-        Product(title: "Kickflip Studios Black", price: "18", imageName: "shirt05.png")
+        Product(title: "Devslopes Logo Shirt Gray", price: "$19", imageName: "shirt02.png"),
+        Product(title: "Devslopes Logo Shirt Red", price: "$18", imageName: "shirt03.png"),
+        Product(title: "Hustle Delegate Grey", price: "$18", imageName: "shirt04.png"),
+        Product(title: "Kickflip Studios Black", price: "$18", imageName: "shirt05.png")
     ]
       //    MARK: ALL PRODUCT
     private let digitalGoods = [Product]()
