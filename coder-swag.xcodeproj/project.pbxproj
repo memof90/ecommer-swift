@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D61AC9E25915D590028026F /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61AC9D25915D590028026F /* ProductCell.swift */; };
+		8D61ACA1259161770028026F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D61ACA0259161770028026F /* Product.swift */; };
 		8DA88598258EAEFF00C46C13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA88597258EAEFF00C46C13 /* AppDelegate.swift */; };
 		8DA8859A258EAEFF00C46C13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA88599258EAEFF00C46C13 /* SceneDelegate.swift */; };
 		8DA8859C258EAEFF00C46C13 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA8859B258EAEFF00C46C13 /* CategoriesVC.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		8D61AC9D25915D590028026F /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		8D61ACA0259161770028026F /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		8DA88594258EAEFF00C46C13 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA88597258EAEFF00C46C13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DA88599258EAEFF00C46C13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				8DEFB60C258EC980003445FF /* Category.swift */,
+				8D61ACA0259161770028026F /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DA8859C258EAEFF00C46C13 /* CategoriesVC.swift in Sources */,
+				8D61ACA1259161770028026F /* Product.swift in Sources */,
 				8DEFB60D258EC980003445FF /* Category.swift in Sources */,
 				8DA88598258EAEFF00C46C13 /* AppDelegate.swift in Sources */,
 				8DEFB611258EC9D1003445FF /* DataService.swift in Sources */,
